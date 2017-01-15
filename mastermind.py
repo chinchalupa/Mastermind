@@ -51,3 +51,4 @@ while mastermind.hasRemainingMove():
     generatedCode = mastermind.generateRandomCode()
     print 'Generated ' + str(generatedCode.getCode()) + ' against ' + str(mastermind.getAnswerCode().getCode())
     print 'Move resulted in ' + str(mastermind.makeMove(generatedCode))
+print 'Game complete'
